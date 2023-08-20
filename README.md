@@ -1,6 +1,8 @@
 # Tranquil_Talk
 Tranquil Talk is an empathetic companion providing compassionate support and guidance for mental well-being.
 
+For the Application, access this link: https://mylambton-my.sharepoint.com/:f:/g/personal/c0856148_mylambton_ca/Elq7yCVTXBFHv91mhosQcOgBlTnHM-7019hlJKk94j1CUA?e=jnzwbQ
+
 # Abstract
 The advent of this project heralded the integration of TensorFlow, Rasa, and GPT-3 to develop a robust and empathetic Mental Health Chatbot. These initial technologies showcased immense promise in natural language understanding and conversational AI. However, this project’s journey took a remarkable and innovative turn, ultimately creating a hybrid model that amalgamates the strengths of OpenAI's GPT-3, TF-IDF vectorization, and cosine similarity. This transformative shift in approach facilitated a more comprehensive evaluation of the chatbot's performance and its capacity to offer holistic mental health support.
 
