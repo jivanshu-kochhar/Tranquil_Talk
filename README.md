@@ -25,38 +25,38 @@ Data preprocessing was conducted to ensure data quality and usability. Missing v
    Any rows with missing values are removed using `data = data.dropna()`.
 Handling Duplicate Data:
    - Duplicate rows in the dataset are identified and removed using `data[data. duplicated()]` and `data = data.drop_duplicates()`.
-Data Type Conversion:
-   - The 'question' and 'answer' columns are explicitly converted to string data types using `data['question'] = data['question'].astype(str)` and `data['answer'] = data['answer'].astype(str)` to ensure uniform data types for text processing.
+### Data Type Conversion:
+The 'question' and 'answer' columns are explicitly converted to string data types using `data['question'] = data['question'].astype(str)` and `data['answer'] = data['answer'].astype(str)` to ensure uniform data types for text processing.
 Text Length Calculation:
    - The code calculates the length of questions and answers separately using `data['question']. apply(len)` and `data['answer'].apply(len)`. This step is used to understand the length distribution of text data.
 These data preprocessing steps ensure the dataset is clean, complete, and properly formatted for subsequent natural language processing and analysis and the development of the Mental Health Chatbot.
 
-Exploratory Data Analysis (EDA)
+###Exploratory Data Analysis (EDA)
 EDA techniques were applied to gain insights into the dataset's distribution and characteristics. Visualizations, including bar plots, word clouds, scatter plots, 3D plots, and box plots, were utilized to explore data patterns and identify common mental health topics.
 Value Counts of Tags:
   The code calculates the distribution of questions per tag using `data['tag'].value_counts()` . This step provides an overview of the many questions associated with each mental health tag.
  
 
-Bar Plot for Tag Distribution:
+### Bar Plot for Tag Distribution:
 A bar plot was generated to visualize the distribution of questions per tag. The top 10 tags with the highest number of questions were plotted in a bar chart using `tag_distribution.head(10).plot(kind='bar', color='skyblue')`.
 This visualization helps identify the most common mental health topics users are interested in.
  
 The bar chart analysis reveals that "Clomipramine" and "Citalopram" are the two mental health topics with the highest number of questions among the top 10 represented in the dataset. This suggests that individuals seeking information and support regarding these specific medications or treatments have posed many inquiries. The prominence of these topics in the chart underscores their relevance and the need for accessible and accurate information in the context of mental health treatment options. These findings inform the chatbot's focus on providing comprehensive responses to questions related to Clomipramine and Citalopram.
 
 
-Word Cloud for Tags:
+### Word Cloud for Tags:
  A word cloud was created to represent the distribution of tags using `WordCloud visually`. The word cloud provides an intuitive way to identify frequently occurring tags, with tag frequency influencing the size of the tag's representation in the cloud.
  
 
-Scatter Plot of Question Length vs. Answer Length:
+### Scatter Plot of Question Length vs. Answer Length:
  A scatter plot was generated to explore the relationship between the length of questions and answers. The code uses a loop to create a scatter plot with question length on the x-axis and answer length on the y-axis for the top tags. Each tag is represented with a unique colour, and the plot includes a legend to differentiate between tags. This visualization helps understand if there's any correlation between the length of user questions and the length of the corresponding answers.
  
 
-3D Plot of Question Length, Answer Length, and Tag Encoding:
+### 3D Plot of Question Length, Answer Length, and Tag Encoding:
 A 3D plot was created to visualize the relationship between question length, answer length, and tag encoding. The code uses the `mpl_toolkits.mplot3d` library to generate a 3D scatter plot. The x-axis represents question length, the y-axis represents answer length, and the z-axis represents the numerical encoding of the top tags. This visualization provides insights into how the length of questions and answers varies across mental health tags.
  
 
-Box Plot of Question Lengths for Top Tags:
+### Box Plot of Question Lengths for Top Tags:
 A box plot was generated to visualize the distribution of the top tags’ question lengths. The code creates separate box plots for each tag, allowing for a comparison of question length distributions. This visualization helps identify variations in question length among different mental health topics.
  
 
