@@ -99,10 +99,13 @@ This interface provides a user-friendly platform where individuals can input the
 
 # System Flow
 The system flow is as follows:
-### User: The user initiates the interaction with the system by accessing the chatbot through the User Interface Layer.
-UI Layer: The User Interface Layer receives the user's queries, creating an entry point for interaction.
+### User
+The user initiates the interaction with the system by accessing the chatbot through the User Interface Layer.
+### UI Layer
+The User Interface Layer receives the user's queries, creating an entry point for interaction.
 Processing Layer: This layer processes the user's query by checking the dataset for a relevant answer using cosine similarity. If a suitable answer is found within the dataset, it is retrieved and presented to the user. However, if the query falls outside the dataset's knowledge, the question is passed on to the GPT-3 model for response generation.
-### Data Layer: The Data Layer contains the dataset of mental health questions, answers, and tags, forming the knowledge base for the chatbot's responses.
+### Data Layer
+The Data Layer contains the dataset of mental health questions, answers, and tags, forming the knowledge base for the chatbot's responses.
 ### GPT-3 Integration
 GPT-3, the advanced language model, comes into play when the query surpasses the dataset's knowledge. It generates responses based on the user's question, ensuring a comprehensive and informative reply.
 This modular architecture ensures the chatbot's adaptability and scalability, making it well-equipped to provide reliable mental health support and information to users across various mental health concerns. Fusing traditional NLP techniques with cutting-edge AI models signifies a promising step forward in addressing mental health challenges through technology. 
