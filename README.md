@@ -1,19 +1,20 @@
 # Tranquil_Talk
 Tranquil Talk is an empathetic companion providing compassionate support and guidance for mental well-being.
 
-Abstract
+# Abstract
 The advent of this project heralded the integration of TensorFlow, Rasa, and GPT-3 to develop a robust and empathetic Mental Health Chatbot. These initial technologies showcased immense promise in natural language understanding and conversational AI. However, this project’s journey took a remarkable and innovative turn, ultimately creating a hybrid model that amalgamates the strengths of OpenAI's GPT-3, TF-IDF vectorization, and cosine similarity. This transformative shift in approach facilitated a more comprehensive evaluation of the chatbot's performance and its capacity to offer holistic mental health support.
 
 Mental health support, a critical need in contemporary society, necessitates a nuanced and adaptable solution. As this project unfolded, the amalgamation of technologies evolved into an elegant solution that blends advanced language modelling with time-honoured natural language processing (NLP) techniques. This amalgam enhanced the chatbot’s performance and underscored its potential to cater to various mental health-related queries.
 
-Introduction
+# Introduction
 Mental health is a critical concern today, and the accessibility of reliable information and support is paramount. To address this need, we embarked on a project to develop a Mental Health Chatbot. This innovative solution leverages technology to provide users with accurate, empathetic, and timely responses to their mental health-related queries.
 This report outlines our journey in creating the Mental Health Chatbot, emphasizing our methodology, system architecture, UI/UX design, performance metrics, future enhancements, and concluding insights. Combining traditional natural language processing techniques, state-of-the-art AI models, and thoughtful user experience design, we aim to offer a comprehensive and accessible resource for individuals seeking mental health information and support.
 Focusing on data-driven insights and user-centric design, our project represents a crucial step in harnessing technology to address mental health challenges effectively and compassionately.
 Methodology
 The Mental Health Chatbot is a structured and iterative process encompassing data collection and analysis, natural language processing (NLP) preparation, chatbot development, integration with GPT-3, and user interaction. This multifaceted approach ensures the chatbot can provide accurate, empathetic, and contextually relevant responses to various mental health-related queries.
-Data Collection and Analysis
-Data Collection:
+
+# Data Collection and Analysis
+## Data Collection:
 The dataset comprises 6,642 rows and three columns, encompassing mental health-related questions, corresponding answers, and categorizing tags. It includes diverse topics such as anxiety, depression, and stress management. Each question is associated with an informative answer, enabling the Mental Health Chatbot to provide contextually relevant responses to user inquiries. Tags categorize the content, facilitating efficient retrieval of pertinent information. This dataset forms the foundation of the chatbot's knowledge base, allowing it to offer empathetic and accurate support for a broad spectrum of mental health concerns, thereby promoting accessibility and understanding of mental health support.
  
 
