@@ -62,18 +62,18 @@ A box plot was generated to visualize the distribution of the top tags’ questi
 
 
 # Natural Language Processing (NLP) Preparation
-## Text Data Transformation:
+### Text Data Transformation:
  The TF-IDF (Term Frequency-Inverse Document Frequency) vectorization technique was employed to convert textual data into numerical values. This transformation was necessary to prepare the text data for NLP analysis.
-## Chatbot Development
+### Chatbot Development
 Chatbot Architecture:
 The chatbot was developed using Python and relevant libraries, including TensorFlow. It was designed to receive user queries and provide responses based on the dataset.
-## Cosine Similarity:
+### Cosine Similarity:
 Cosine similarity, a fundamental NLP technique, was harnessed to calculate the similarity between a user's query and questions in the dataset. This comparison helped identify the most similar question in the dataset, allowing the chatbot to retrieve and present the corresponding answer as a response.
 
-## GPT-3 Integration:
+### GPT-3 Integration:
 To enhance the chatbot's capabilities and provide responses for queries that fell outside the dataset's scope, integration with GPT-3, an advanced language model, was implemented. When a user posed a question beyond the dataset's knowledge, the chatbot seamlessly engaged GPT-3. GPT-3 generated responses based on the user's question, expanding the chatbot's ability to provide information on a broader range of topics.
 
-## Interactive Chat Interface:
+### Interactive Chat Interface:
 - The project culminated in the development of an interactive chat interface. This interface served as the user's portal to engage with the chatbot.
 - Users could submit questions and receive real-time responses.
 Certainly, here's an expanded description of the system architecture for the Mental Health Chatbot:
