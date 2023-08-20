@@ -80,30 +80,30 @@ Certainly, here's an expanded description of the system architecture for the Men
 
 # System Architecture
 The architecture of the Mental Health Chatbot is designed with modularity, scalability, and ease of maintenance as primary considerations. It comprises three essential layers: the Data Layer, Processing Layer, and User Interface Layer. Each layer plays a distinct role in enabling the chatbot to interact with users, process queries, and provide accurate and empathetic responses.
-## Data Layer
+### Data Layer
 The Data Layer serves as the foundational component of the system and houses the essential dataset containing mental health-related questions, answers, and tags. Key attributes of this layer include:
 Mental Health Dataset: This dataset, comprising 6,642 rows and three columns, is meticulously curated to cover a broad spectrum of mental health topics. It includes an extensive collection of questions, corresponding answers, and associated tags, providing a rich knowledge base for the chatbot.
-## Processing Layer
+### Processing Layer
 The Processing Layer forms the core of the chatbot's functionality and includes various components responsible for handling user queries and generating responses. Key components and functionalities within this layer are:
-## TensorFlow Model
+### TensorFlow Model
 Initially, the chatbot leverages TensorFlow, a robust machine learning framework, for natural language understanding and response generation. While this approach is integral to the project's initial development, it evolves as the project progresses.
-## Cosine Similarity Computation
+### Cosine Similarity Computation
 The Processing Layer utilizes cosine similarity, a fundamental natural language processing technique, to calculate the similarity between a user's query and the questions in the dataset. This comparison enables the chatbot to identify the most relevant question-answer pair, enhancing response accuracy.
-## Integration with GPT-3
+### Integration with GPT-3
 As the project advances, integration with GPT-3, a state-of-the-art language model developed by OpenAI, is introduced. This integration empowers the chatbot to generate responses for queries beyond the dataset's scope, significantly expanding its capabilities.
-## User Interface Layer
+### User Interface Layer
 The User Interface Layer is the front-end component, enabling users to interact seamlessly with the chatbot. Key elements within this layer include:
 
-## Interactive Chat Interface
+### Interactive Chat Interface
 This interface provides a user-friendly platform where individuals can input their mental health-related questions and receive real-time responses from the chatbot. It ensures a convenient and accessible means of seeking information and support.
 
 # System Flow
 The system flow is as follows:
-## User: The user initiates the interaction with the system by accessing the chatbot through the User Interface Layer.
+### User: The user initiates the interaction with the system by accessing the chatbot through the User Interface Layer.
 UI Layer: The User Interface Layer receives the user's queries, creating an entry point for interaction.
 Processing Layer: This layer processes the user's query by checking the dataset for a relevant answer using cosine similarity. If a suitable answer is found within the dataset, it is retrieved and presented to the user. However, if the query falls outside the dataset's knowledge, the question is passed on to the GPT-3 model for response generation.
-## Data Layer: The Data Layer contains the dataset of mental health questions, answers, and tags, forming the knowledge base for the chatbot's responses.
-## GPT-3 Integration
+### Data Layer: The Data Layer contains the dataset of mental health questions, answers, and tags, forming the knowledge base for the chatbot's responses.
+### GPT-3 Integration
 GPT-3, the advanced language model, comes into play when the query surpasses the dataset's knowledge. It generates responses based on the user's question, ensuring a comprehensive and informative reply.
 This modular architecture ensures the chatbot's adaptability and scalability, making it well-equipped to provide reliable mental health support and information to users across various mental health concerns. Fusing traditional NLP techniques with cutting-edge AI models signifies a promising step forward in addressing mental health challenges through technology. 
 
