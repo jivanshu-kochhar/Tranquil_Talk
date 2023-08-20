@@ -126,4 +126,3 @@ Integration with Healthcare Providers: A pivotal future enhancement could involv
 The methodology employed in developing the Mental Health Chatbot is a comprehensive approach that integrates data analysis, NLP techniques, and the utilization of GPT-3. This amalgamation equips the chatbot to offer informative, empathetic, and real-time responses to users' mental health queries and concerns. As technology evolves, this project represents a significant stride in harnessing its potential to address pressing mental health challenges and contribute to global mental well-being.
 
 
-![image](https://github.com/jivanshu-kochhar/Tranquil_Talk/assets/64036827/4ec9081e-dc5b-4faa-8444-ac477a2e719a)
