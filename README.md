@@ -18,9 +18,9 @@ The Mental Health Chatbot is a structured and iterative process encompassing dat
 The dataset comprises 6,642 rows and three columns, encompassing mental health-related questions, corresponding answers, and categorizing tags. It includes diverse topics such as anxiety, depression, and stress management. Each question is associated with an informative answer, enabling the Mental Health Chatbot to provide contextually relevant responses to user inquiries. Tags categorize the content, facilitating efficient retrieval of pertinent information. This dataset forms the foundation of the chatbot's knowledge base, allowing it to offer empathetic and accurate support for a broad spectrum of mental health concerns, thereby promoting accessibility and understanding of mental health support.
  
 
-Data Preprocessing:
+## Data Preprocessing:
 Data preprocessing was conducted to ensure data quality and usability. Missing values in the dataset were addressed through imputation or removal as necessary. Text columns, including questions and answers, were converted to string format for consistency. The length of questions and answers was computed to facilitate subsequent analysis.
-Handling Missing Values:
+### Handling Missing Values:
    The dataset is checked for missing values using `data.isnull().sum()`.
    Any rows with missing values are removed using `data = data.dropna()`.
 Handling Duplicate Data:
